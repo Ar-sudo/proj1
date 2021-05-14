@@ -25,11 +25,6 @@ jobs:
     steps:
       - name: Print Hello in testing 
         run : echo "Hello World from testing" 
-      - name: few commands
-        run: 
-              echo "New massage1"
-              echo "New message2"
-              echo "Aplication name ${{ env.APPLICATION_NAME }}"
   My-dep:
     runs-on: ubuntu-latest
     needs: [build]
