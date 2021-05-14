@@ -3,7 +3,7 @@
 name: My-GitActioN
 env:
   APPLICATION_NAME: "MyFlask"
-  PACKAGE_NAME: "flask_deploy_ver-${{ github.sha }"
+  PACKAGE_NAME: "flask_deploy_ver-${{ github.sha }}"
 
 # Controls when the action will run. 
 on:
