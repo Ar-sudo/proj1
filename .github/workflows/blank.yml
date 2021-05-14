@@ -1,9 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: My-GitAction
-env:
-  APPLICATION_NAME: "MyFlask"
-  PACKAGE_NAME    : "flask_deploy_ver-${{ github.sha }}
+name: My-GitActioN
 
 # Controls when the action will run. 
 on:
