@@ -26,11 +26,10 @@ jobs:
       - name: Print Hello in testing 
         run : echo "Hello World from testing"
       - name: echo few commands
-        run:
-          echo "Hello me"
-          echo "Aplication name ${{ env.APPLICATION_NAME }}"
+        run: echo "Hello me"
+        run: echo "Aplication name ${{ env.APPLICATION_NAME }}"
       - name: Git clone
-        uses:  action/checkout@v1
+        uses: action/checkout@v1
       - name: List folder
         run: ls -ll
   My-dep:
