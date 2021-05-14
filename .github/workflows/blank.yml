@@ -43,3 +43,4 @@ jobs:
       - name: Lets test
         run : aws --version
       - name: zip
+        run : zip
